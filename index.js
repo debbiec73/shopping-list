@@ -1,6 +1,5 @@
 $(function(){
 $('#js-shopping-list-form').submit(event => {
-    // stop the default form submission behavior
     event.preventDefault();
     const item = $('#shopping-list-entry').val();
     $("#shopping-list-entry").val(" ");
